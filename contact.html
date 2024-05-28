@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <title>Contact us   </title>
+</head>
+<body class=" bg-slate-800 md:bg-gradient-to-r  from-slate-950 via-slate-700 to-gray-600">
+    <nav class="flex relative w-full bg-gradient-to-r from-slate-950 to-slate-700 h-16 md:h-24 items-center px-4">
+        <!-- <i class="fa fa-bars text-3xl md:text-4xl text-white hover:shadow-xl"></i> -->
+        <button id="btn" onclick="clicker()" class="text-white h-20 px-5 text-4xl ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-9 hover:text-cyan-400">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+              </svg>              
+        </button>
+        <h1 class="font-bold text-4xl md:text-5xl text-center text-white mx-auto ">Achuthan.</h1>
+    </nav>
+    <div id="dropmenu" class="hidden absolute text-white font-mono md:text-3xl lg:text-4xl bg-blue-950 w-1/4 ">
+        <ul>
+            <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
+                <a href="./responsive.html">Home</a> <!-- when deploying change this as index.html-->
+            </li>
+            <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
+                <a href="./project.html">Projects</a>
+            </li>
+            <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
+                <a href="./about.html">About us</a>
+            </li>
+            <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
+                <a href="./contact.html">Contact us</a>
+            </li>
+        </ul>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
