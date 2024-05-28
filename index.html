@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
-    
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
     <title>Responsive</title>
 </head>
 <body class=" bg-slate-800 md:bg-gradient-to-r  from-slate-950 via-slate-700 to-gray-600">
@@ -18,30 +19,30 @@
         </button>
         <h1 class="font-bold text-4xl md:text-5xl text-center text-white mx-auto ">Achuthan.</h1>
     </nav>
-    <div id="dropmenu" class="hidden absolute text-white font-mono md:text-3xl lg:text-4xl bg-blue-950 w-1/4 ">
+    <div id="dropmenu" class="hidden absolute z-50 text-white font-mono md:text-3xl lg:text-4xl bg-blue-950 w-1/4 ">
         <ul>
             <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
-                <a href="#">Home</a>
+                <a href="./index.html">Home</a> 
             </li>
             <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
-                <a href="#">Projects</a>
+                <a href="./project.html">Projects</a>
             </li>
             <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
-                <a href="#">About us</a>
+                <a href="./about.html">About us</a>
             </li>
             <li class="text-center hover:border-y lg:py-4 md:py-5 py-6 ">
-                <a href="#">Contact us</a>
+                <a href="./contact.html">Contact us</a>
             </li>
         </ul>
     </div>
     <div class="w-full flex">
-        <div class="flex flex-col w-full md:w-1/2 m-10 px-5 text-white ">
+        <div id="main" class="flex flex-col w-full md:w-1/2 m-10 px-5 text-white text-transform ">
                 <h2 class="font-bold mt-auto text-2xl md:text-2xl lg:text-5xl ">Hello I am Achuthan, an aspiring web developer and video editor with proficient knowledge in technologies such as </h2>
                 <h3 class="font-semibold mt-3 mb-auto lg:text-2xl ">HTML,CSS,Javascript,ReactJS,Adobe Premire pro,Adobe After Affects</h3>
-                <img class="rounded-3xl mx-auto my-10 md:hidden " src="./assets/avatar.jpg" alt="">
+                <img class="rounded-3xl mx-auto my-10 md:hidden image-transform" src="./assets/avatar.jpg" alt="">
         </div>
         <div class=" w-1/2 m-10">
-            <img class="hidden rounded-3xl my-10 md:block" src="./assets/avatar.jpg" alt="">
+            <img class="hidden rounded-3xl my-10 md:block image-transform" src="./assets/avatar.jpg" alt="">
         </div>
     </div>
     <h1 class="text-white text-center font-bold text-3xl md:text-6xl">Our Sevices</h1>
